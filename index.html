@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,36 +24,145 @@
                     <li class="header-navigatin_item"><a href="#">CONTACTS</a></li>
                 </ul>
             </nav>
-            <p><a href="+7 (928) 768-32-39">+7 (928) 768-32-39</a></p>
+            <p><span class="tele">
+                <a href="+7 (928) 768-32-39">+7 (928) 768-32-39</a>
+            </span></p>
             <button class="button">Request a call</button>
         </div>
     </header>
     <main>
 <section class="hero">
     <div class="container hero-container">
-        <h1 class="title">Turnkey Repair in the city of Rostov-on-Don</h1>
-        <p>Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work</p>
+        <div class="text-hero">
+        <h1 class="title">Turnkey Repair in the city of <span class="city-name">Rostov-on-Don</span></h1>
+        <p class="info">Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work</p>
+        </div>
        <div>
-        <button class="button">CALCULATE THE COST</button>
-        <button class="button">SUBMIT YOUR APPLICATION</button>
+       <button class="button">CALCULATE THE COST</button>
+       <button class="button hero-button">SUBMIT YOUR APPLICATION</button>
+    </div>
     </div> 
     </div>
 <div class="hero-overlay"></div>
 </section>
 <selection>
-    <div class="container">
+    <div class="main-container">
+        <img src="../rostov-hotel/images/slide.jpg" alt="photo projects" width="679" height="482">
         <nav>
             <ul clas="body-navigation">
-                <li class="body-navigation_item"><a href="#">Rostov-on-Don, Admiral</a></li>
-                <li class="body-navigation_item"><a href="#">Sochi Thieves</a></li>
-                <li class="body-navigation_item"><a href="#">Rostov-on-Don Patriotic</a></li>
+                <li class="body-navigation_item"><a href="#"></a>Rostov-on-Don, Admiral</li>
+                <li class="body-navigation_item"><a href="#"></a>Sochi Thieves</a></li>
+                <li class="body-navigation_item"><a href="#"></a>Rostov-on-Don Patriotic</a></li>
              </ul>
         </nav> 
-    </div>
-    <div class="">
-        <div>
             <h2>Completed projects</h2>
             <p>Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
+    </div>
+    <div>
+        <div>
+            <h3>City:</h3>
+            <span>Rostov-on-Don LCD admiral</span>
+         </div>
+         <div>
+             <h3>Repair time:</h3>
+             <span>3.5 months</span>
+        </div>
+        <div>
+            <h3>apartment area:</h3>
+            <span>81 m <sup>2</sup></span>
+        </div>
+        <div>
+            <h3>Repair Cost:</h3>
+            <span>Upon request</span>
+        </div>
+    </div>
+</selection>
+<section>
+    <div class="contain">
+        <h3>online control</h3>
+        <div>
+            <hr>
+            <img src="../rostov-hotel/images/cam.svg" alt="camera" width="33" height="28">
+            <hr>
+        </div>
+        <img src="../rostov-hotel/images/work.jpg" alt="process work" width="817" height="434">
+        <img src="../rostov-hotel/images/play.svg" alt="play" width="85" height="85"
+        <hr>
+        <p>At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
+        <form>
+            <label for="username">Name</label>
+            <input type="text" id="username">
+            <label for="Phone">Phone</label>
+            <input type="tel" id="phone" name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <button type="submit">Submit</button>
+            <div class="first-checkbox">
+                <label class="label">
+                  <input type="checkbox" class="checkbox" >
+                  <span class="fake"></span>
+                  <span class="text">I agree to the processing of personal data</span>
+                </label>
+              </div>
+        </form>
+    </div>
+</section>
+<selection>
+    <div class="cont">
+        <h3>TYPES OF REPAIR</h3>
+    <div>
+        <hr>
+        <img src="../rostov-hotel/images/tools.svg" alt="tools" width="28" height="28">
+        <hr>
+    </div>
+    <div>
+        <img src="../rostov-hotel/images/room1.jpg" alt="photo room" width="392" height="421">
+    </div>
+        <h3>Redecorating</h3>
+        <ul>
+            <li>Dismantling of old coatings</li>
+            <li>Wallpapering</li>
+            <li>Painting walls and ceilings</li>
+            <li>Laying flooring</li>
+            <li>Replacing plumbing</li>
+            <li>Replacing sockets and switches</li>
+            <li>Replacing doors</li>
+        </ul>
+        <div>
+            <h3>from 900 rub &#47; m <sup>2</sup></h3>
+        </div>
+    </div>
+    <div>
+        <img src="../rostov-hotel/images/room2.jpg" alt="photo room" width="392" height="421">
+    </div>
+        <h3>Overhaul</h3>
+        <ul>
+            <li>Dismantling of old coatings</li>
+            <li>Wallpapering</li>
+            <li>Painting walls and ceilings</li>
+            <li>Laying flooring</li>
+            <li>Replacing plumbing</li>
+            <li>Replacing sockets and switches</li>
+            <li>Replacing doors</li>
+        </ul>
+        <div>
+            <h3>from 1800 rub &#47; m <sup>2</sup></h3>
+        </div>
+        <div>
+            <img src="../rostov-hotel/images/room3.jpg" alt="photo room" width="392" height="421">
+        </div>
+            <h3>Designer Repair</h3>
+            <ul>
+                <li>Dismantling of old coatings</li>
+                <li>Wallpapering</li>
+                <li>Painting walls and ceilings</li>
+                <li>Laying flooring</li>
+                <li>Replacing plumbing</li>
+                <li>Replacing sockets and switches</li>
+                <li>Replacing doors</li>
+            </ul>
+            <div>
+                <h3>from 4000 rub &#47; m <sup>2</sup></h3>
+            </div>
         </div>
     </div>
 </selection>

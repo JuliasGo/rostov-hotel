@@ -1,21 +1,22 @@
 @font-face {
-    src: url("../rostov-hotel/fonts/NunitoSans-Regular.ttf");
+    src: url("./fonts/NunitoSans-Regular.ttf");
     font-family: 'NunitoSans Regular';
 }
 
 @font-face {
-    src: url("../rostov-hotel/fonts/YesevaOne-Regular.ttf");
-    font-family: 'YesevaOne Regular';
+    src: url("./fonts/YesevaOne-Regular.ttf");
+    font-family: 'YesevaOne';
 }
 
 @font-face {
-    src: url("../rostov-hotel/fonts/NunitoSans-Italic.ttf");
-    font-family: 'NunitoSans Italic';
+    src: url("./fonts/NunitoSans-Italic.ttf");
+    font-family: 'NunitoSans';
 }
 
 .body {
     margin: 0;
-    font-family: 'NunitoSans Regular', Arial;
+    font-family: 'NunitoSans', Arial, Helvetica;
+    
 }
 
 body * {
@@ -53,7 +54,6 @@ margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     height: 83px;
-    align-items: center;
 }
 
 .headr-navigation {
@@ -71,14 +71,29 @@ margin: 0 auto;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 11px;
     line-height: 15px;
+}
+
+p span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873; 
+}
+
+.tele a {
+    color: #E3B873; 
 }
 
 header .container{
  display: flex;
-justify-content: space-between;
-align-items: center;
+ justify-content: space-between;
+ align-items: center;
 }
 
 section .container {
@@ -87,6 +102,7 @@ section .container {
     display: flex;
     flex-direction: column;
 }
+
 .hero {
     background-image: url("../rostov-hotel/images/img.jpg");
     background-size: cover;
@@ -94,6 +110,7 @@ section .container {
     padding-top: 194px;
     position: relative;
 }
+
 .hero-overlay {
     content:"";
     position: absolute;
@@ -103,13 +120,19 @@ section .container {
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
 }
+
 .hero-container {
     position: relative;
     z-index: 1;
 }
+
+.text-hero {
+    width: 678px; 
+}
+
 .title {
     margin: 0;
-    font-family: 'Yeseva One';
+    font-family: 'YesevaOne';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -118,13 +141,50 @@ section .container {
     color: #FFFFFF;
 }
 
-.body-navigation{
-    
-}
-.body-navigation_item{
-    margin-right: 60px;
+.city-name {
+    color:#E3B873;
 }
 
+.info {
+    font-family: 'NunitoSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.body-navigation{
+    list-style: none;
+    display: flex;
+}
+
+.body-navigation_item {
+    margin: 0;
+}
+
+.body-navigation_item {
+    display: inline;
+    margin-right: 61px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1074px;
+    background-color: black;
+}
+h2 {
+    color:white;
+}
 /*@media screen and (max-width: 1300px){
     section .container {
     margin-top:57px;
